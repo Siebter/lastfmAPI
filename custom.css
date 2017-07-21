@@ -1,0 +1,24 @@
+.resultbox {
+    display: inline;
+    justify-content: center;
+    align-items: center; 
+}
+
+img {
+    border-radius: 3px;
+    margin: 0.2rem;
+    width: 48%;
+    
+}
+
+p.thumbs {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.smallText {
+    font-size: 0.6rem;
+    visibility: hidden;
+    
+}

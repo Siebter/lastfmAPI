@@ -1,0 +1,91 @@
+<html>
+
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>58 jQuery Mobile Project</title>
+        <link rel="stylesheet" href="themes/sueden.min.css" />
+        <link rel="stylesheet" href="themes/jquery.mobile.icons.min.css" />
+        <link href="themes/jquery.mobile.structure-1.4.5.min.css" rel="stylesheet" type="text/css"/>
+        <link href="css/custom.css" rel="stylesheet" type="text/css"/>
+        <script src="themes/jquery-1.11.1.min.js" type="text/javascript"></script>
+        <script src="themes/jquery.mobile-1.4.5.min.js" type="text/javascript"></script>   
+        <script src="js/getartistinfos.js" type="text/javascript"></script>
+        <script src="js/main.js" type="text/javascript"></script>
+    </head>
+
+    <body>
+
+        <div data-role="page" data-theme="a" id="home">
+
+            <div data-role="header" data-position="fixed">
+                <h1>Home</h1>
+                <a href="#menu" class="ui-btn">Menu</a>
+            </div>
+
+            <div data-role="content" data-theme="a">
+
+
+                <form>
+                    <select name="select-choice-a" id="select-choice-a" data-native-menu="false">
+                        <option>Bitte Land auswählen</option>
+                        <option value="germany">Deutschland</option>
+                        <option value="austria">Österreich</option>
+                        <option value="france">Frankreich</option>
+                        <option value="italy">Italien</option>
+                        <option value="japan">Japan</option>            
+                        <option value="switzerland">Schweiz</option>
+                        <option value="poland">Polen</option>
+                        <option value="indonesia">Indonesien</option>
+                        <option value="spain">Spanien</option>
+                        <option value="brazil">Brasilien</option>
+                        <option value="morocco">Marokko</option>
+                        <option value="canada">Kanada</option>
+                        <option value="turkey">Türkei</option>
+                        <option value="china">China</option>
+                    </select>
+                </form>
+                
+               
+                
+                <div class="resultbox"></div>
+                
+                
+                
+            </div>
+
+            <div data-role="footer" data-theme="a" data-position="fixed"><p class="smallText"> Tippen sie auf ein Bild, um mehr über den Künstler zu erfahren</p></div>
+
+        </div>
+        
+        
+
+
+
+        <!-- Panel -->
+
+        <div id="menu" class="
+             ui-panel
+             ui-panel-position-left
+             ui-panel-display-reveal
+             ui-panel-animate
+             ui-panel-open"
+             data-position="left"
+             data-display="overlay"
+             data-role="panel"
+             data-theme="a"
+             data-dismissible="true"
+             data-swipe="close">
+
+            <div class="ui-panel-inner">
+                
+                    <a href="artistinfo.html" class="ui-shadow ui-btn ui-corner-all">Beliebteste Künstler</a>
+              
+                    <a href="lastfminfo.html" class="ui-shadow ui-btn ui-corner-all">Über diese Seite</a>
+
+            </div>
+
+        </div>
+
+    </body>
+</html>
