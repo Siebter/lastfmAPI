@@ -15,8 +15,7 @@ $(document).on('change', 'select', function () {
 
 function showTopArtists(lastfmData) {
 
-    $('.resultbox p').remove();
-    $('.resultbox img').remove();
+    $('.resultbox a').remove();
     $.each(lastfmData.topartists.artist, function (idx, art) {
 
         var artname = art.name;
