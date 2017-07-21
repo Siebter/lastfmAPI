@@ -20,7 +20,7 @@ function showTopArtists(lastfmData) {
     $('.resultbox p').remove();
     $('.resultbox img').remove();
     $.each(lastfmData.topartists.artist, function (idx, art) {
-//     
+   
         var artname = art.name;
         var image = art.image[2]["#text"];
 
