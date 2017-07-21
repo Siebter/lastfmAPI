@@ -11,12 +11,6 @@ img {
     
 }
 
-p.thumbs {
-    display: flex;
-    flex-direction: column;
-    
-}
-
 .smallText {
     font-size: 0.6rem;
     visibility: hidden;
